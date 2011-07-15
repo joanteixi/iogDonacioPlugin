@@ -1,0 +1,55 @@
+propel:
+  _attributes:      { package: plugins.iogContactePlugin.lib.model }
+  contacte:
+    id: ~
+    tipus_persona: { type: varchar(1), required: true, default: p } # p -> persona, e -> entitat
+    nom: { type: varchar(255), required: true }
+    cognoms: { type: varchar(255), required: true }
+    dni: varchar(12)  # s'accepten dni, nif, nie, passaport
+    direccio: varchar(255)
+    codi_postal: varchar(10)
+    ciutat: { type: varchar(100), required: true }
+    provincia: varchar(100)
+    pais_residencia: varchar(100)
+    telefon: varchar(11)
+    email: { type: varchar(255), required: true }
+    data_naixement: date
+    nacionalitat: { type: varchar(100), required: true }
+    idioma_contacte: { type: varchar(2), required: true, default: ca }  # ca, es, en, fr
+    sexe: varchar(1) # d-> dona, h->home
+    accepta_mailing: { type: boolean, default: false }
+    text: { type: longvarchar, required: true }
+
+  donacio:
+    id: ~
+    nom: { type: varchar(255), required: true }
+    cognoms: { type: varchar(255), required: true }
+    entitat: { type: varchar(255) }
+    direccio: varchar(255)
+    codi_postal: varchar(10)
+    ciutat: { type: varchar(100), required: true }
+    telefon: varchar(11)
+    email: { type: varchar(255), required: true }
+    professio: { type: varchar(255) }
+    dni: varchar(12)  # s'accepten dni, nif, nie
+    data_naixement: date
+    telefon: varchar(15)
+
+    donacio: { type: decimal, size: 8, scale: 2, require: true }
+    periodicitat: { type: varchar(255), required: true } #("mensual", "trimestral", "anual", "puntual"
+    forma_pagament: { type: varchar(255), required: true } #enum("domiciliacio", "transferencia", "telefon", "xec","tarja","ma"
+
+    cc: { type: integer, size: 10 }
+    oficina: { type: integer, size: 4 }
+    dc: { type: integer, size: 2 }
+    entitat_compte: { type: integer, size: 4 }
+    titular_compte: { type: varchar(255) }
+    newsletter: { type: boolean, default: 0 }
+    
+    nb_pedido: { type: integer, size:11 }
+    response: { type: varchar(10) } 
+    
+
+    
+
+

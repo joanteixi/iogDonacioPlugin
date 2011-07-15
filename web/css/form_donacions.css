@@ -1,0 +1,146 @@
+
+/** FORMULARI **/
+.formulari_donacio { background-color:#fff}
+#donacio { font-size: 0.9em;color:#333;}
+#donacio li { list-style: none}
+#donacio label {color: #444;
+float: left;
+font-size: 1em;
+font-weight: bold;
+margin-right: 1em;
+position: relative;
+width: 99%;
+line-height: 1.5em;
+}
+
+#donacio label strong { position: absolute; left: 27em;top: 0.2em;width: 19em;color: #C00;font-size: 85%;
+                        font-weight: normal;text-transform: uppercase;}
+#donacio .submitBtn:hover { border-width: 1px 2px 2px 1px}
+#donacio .submitBtn { border: 1px solid #006087;background: #006087 url(/images/escoles/degradat_caixa.png) repeat-x 0 0;
+                      height:32px;padding:0 5px;float:right }
+form#donacio ul li { float: left;clear: left;width: 100%;padding-bottom: 4px;margin:0 0 0 10px}
+form#donacio ul.radio_list { background-color: #9DCD28;
+float: left;
+padding: 10px;
+border: 2px solid #CCC;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;color: #fff;}
+form#donacio ul.radio_list li { clear:none;float:left;width:145px;}
+form#donacio ul.radio_list label { float:none}
+#donacio select { width:20em;}
+#donacio select.data { width:5em;float:none;background-color:#fff}
+#donacio input, #donacio select, #donacio textarea {width: 250px;
+border: 2px solid #CCC;
+padding: 4px;
+-webkit-border-radius: 6px;-moz-border-radius:6px;}
+#donacio input[type='submit']  { width: 10em;
+float: none;
+font-size: 1.4em;
+padding: 10px;
+margin: 25px 0 0px 65px;}
+#donacio input.hover { background-color: #67B021;color: #fff}
+#donacio input.enviant { background-color: #9DCD28; color: #fff}
+#donacio li.donacio_list { margin-left:30px;}
+#donacio li.donacio_list label { margin-bottom:1em}
+li.donacio_list span{ font-size: 1.5em}
+input#donacio_donacio {
+  margin-left:15px;
+border: 2px solid #CCC;
+padding: 5px 10px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+font-size: 1.5em;
+width: 3em;
+text-align: right;
+}
+
+#donacio fieldset.contribucio > ul > li > label { border-bottom: 1px solid #ccc; margin-bottom:1em }
+#donacio fieldset.contribucio li { margin: 10px 0}
+#donacio fieldset.contribucio li ul li { margin: 0}
+#donacio .radio_list input {width: auto;}
+#donacio input[type='checkbox'] { margin: 0px 5px 0 14px;width: auto;}
+#donacio label[for='newsletter'], #donacio label[for='legal'] { float:none}
+#donacio fieldset { width:335px;padding:20px 10px;float:left;position:relative}
+/*#donacio fieldset.contribucio { float:right;}*/
+#donacio legend {background-color:#006087;
+color:#F0F0F0;
+font-size:1.5em;
+font-weight:bold;
+padding:5px 15px}
+/** activitats **/
+#donacio .no_column { clear:both;margin-top:200px}
+#donacio .h_scrollable { border:1px solid #CCCCCC;cursor:pointer;float:left;margin:0 10px;padding:5px;width:400px;}
+#donacio .error_list li { margin:15px 0 5px 0;float:none;background:url("/sf/sf_admin/images/error.png") no-repeat scroll 5px 4px #FFE9A8;
+color:red;
+font-weight:bold;
+padding:5px 0 5px 25px;
+width:70%;line-height: 1.1em}
+
+#donacio ul.error_list + label + input { border-color:red;}
+#donacio ul.error_list + label  { color:red;}
+#donacio li.dos_linies label { width:90%;float:none;display:block}
+#donacio li.dos_linies_llarg label { width:90%; float:none}
+#donacio span.help { color:#999999;display:block;font-size:0.85em;font-weight:bold;margin:-2px 0 0 10px;line-height: 1.2em}
+#loader2 { -moz-border-radius:10px 10px 10px 10px;border:1px solid #CCCCCC;color:#FFFFFF;font-weight:bold;
+           padding:3px 3px 3px 50px;background: url('/images/ico/loading.gif') no-repeat 20px 50% #006087 }
+#donacio p.avis {margin: 10px 5px;
+float: left;
+font-size: 1em;
+font-style: italic;
+line-height: 1.3em;
+}
+#forma_pagament { display:none}
+div.titol {margin-bottom:10px;background-color: #666;padding: 10px 10px;color: #DDD;font-weight: bold;}
+div.titol.contribucio { background-color: #FFE9A8;color: #ccc}
+div.pane div { display:none}
+
+div.imports { top: 137px;
+left: 170px;
+font-size: 1.3em;
+text-align: right;position:absolute}
+div.imports a:hover { color: #000;border:1px solid #000;background-color:#eee}
+div.imports a { color: #999999;border: 1px solid #CCC;
+padding: 2px;
+margin: 2px 0px;}
+div.legal { clear: both;
+width: 90%;
+color: #444;
+line-height: 1.3em;
+margin: 0 auto;
+text-align: justify;
+border: 1px dashed #CCC;
+padding: 10px;
+margin: 20px auto;}
+div.legal h4 { font-size: 1.1em; font-weight: bold;border-bottom:1px solid #ccc;margin-bottom:10px}
+
+#donacio li.curt { width:60px;float:left;}
+#donacio li.curt input { width:3em;float:left;}
+#donacio li.curt input.cc { width:7em;float:left;}
+
+#donacio span.required { color: red}
+
+#donacio .avisos p {margin: 10px auto 0 !important;
+font-size: 1.1em;
+text-align: center;
+width: 300px;
+background-color: #9DCD28;
+padding: 10px;
+color: white;
+font-weight: bold;-webkit-border-radius: 10px;-moz-border-radius: 10px;
+border: 1px solid #CCC;}
+
+#content div.sermepa_connect { width: 600px;margin: 10px auto 30px;padding:0 0 0 50px}
+#content div.sermepa_connect h1 { font-size: 16px;
+    padding: 50px 0 20px 0;
+    background-color: transparent;
+}
+
+div.gracies { 
+    width:500px;
+    background-color: transparent;
+    font-size:1.3em;
+    padding: 50px 10px;
+    margin: 0 auto;
+    
+  
+}

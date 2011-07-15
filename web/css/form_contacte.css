@@ -1,0 +1,18 @@
+#formulari_basic { width:80%; text-align: left;}
+.form table {border-collapse:separate;border-spacing:1px;margin:0 auto}
+.form_control { margin: 10px 0;}
+.form th { text-align:left;vertical-align:top;}
+label { display: block; padding: 2px 15px;background-color:#9DCD28;color:#fff;margin-left:15px;text-transform:uppercase; font-weight:bold}
+input[type='text'] { margin-left:5px;width: 320px; height:1.5em; border: none;}
+input[type='submit'] { cursor:pointer; vertical-align:middle; float:right; padding:5px;margin-top:10px;text-transform:uppercase;}
+textarea { margin-left:5px;width:300px; border: none;padding:10px}
+table#contacte { margin: 0 0 50px 30px; }
+table#contacte tr,table#contacte td, table#contacte th{ border-bottom:1px transparent solid;}
+table#contacte td {padding:0 5px}
+table#contacte th { vertical-align:top;}
+table#contacte a {display: block }
+table#contacte tr.error label { background-color: red}
+table#contacte tr.error input, table#contacte tr.error textarea { border:1px solid red}
+ul.error_list { margin-left:0 !important;color: red;font-weight:bold}
+.boto_enviar { margin:20px 100px 10px 0 !important}
+
